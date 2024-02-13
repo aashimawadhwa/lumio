@@ -1,0 +1,19 @@
+<svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M6.58301 31.521H11.583V9.021H6.58301V31.521Z"
+        stroke="#F5F5F5"
+        stroke-width="2"
+      />
+      <path
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M29.083 31.521H34.083V9.021H29.083V31.521Z"
+        stroke="#F5F5F5"
+        stroke-width="2"
+      />
+      <path d="M15.333 20.2708H29.083" stroke="#F5F5F5" stroke-width="2" />
+      <path d="M33.6665 20.2708H37.8332" stroke="#F5F5F5" stroke-width="1.5" />
+      <path d="M2.83301 20.2708H6.99967" stroke="#F5F5F5" stroke-width="1.5" />
+    </svg>
