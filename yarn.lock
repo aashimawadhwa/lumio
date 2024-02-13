@@ -1326,7 +1326,7 @@
 "@emotion/utils@^1.0.0":
   version "1.1.0"
   resolved "https://registry.npmjs.org/@emotion/utils/-/utils-1.1.0.tgz"
-  integrity sha512-iRLa/Y4Rs5H/f2nimczYmS5kFJEbpiVvgN3XVfZ022IYhuNA1IRSHEizcof88LtCTXtl9S2Cxt32KgaXEu72JQ==
+  integrity sha512-iRLa/Y4Rs5H/f2nimczYmS5kFJEbpiVvgN3XVfZ022IYlumio1IRSHEizcof88LtCTXtl9S2Cxt32KgaXEu72JQ==
 
 "@emotion/utils@^1.2.0":
   version "1.2.0"

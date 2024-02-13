@@ -355,7 +355,7 @@ export default function PDCDefermentForm({
                     A/C Holder’s Name
                   </Typography>
                   <Typography color="grey.400" variant="subtitle1">
-                    Huna pvt. ltd.
+                    lumio pvt. ltd.
                   </Typography>
                 </DetailBox>
                 <DetailBox>

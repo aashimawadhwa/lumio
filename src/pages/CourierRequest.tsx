@@ -215,9 +215,9 @@ export default function CourierRequest() {
             </Box>
             <TabPanel value="1">
               <Box sx={{ textAlign: 'left' }}>
-                <Typography variant="subtitle1">What are you sending to HUNA?</Typography>
+                <Typography variant="subtitle1">What are you sending to lumio?</Typography>
                 <Typography variant="subtitle2" color="grey.500" mb={{ xs: 3, sm: 4.5 }}>
-                  Please select what you are planning to send to HUNA by courier.
+                  Please select what you are planning to send to lumio by courier.
                 </Typography>
                 <Box>
                   {CheckElements.map((e, i) => (

@@ -202,7 +202,7 @@ export default function BankAccountForm() {
                     onChange={handleChange}
                   />
                   <Typography pl={0.5} pt={1} variant="body2" color="grey.500">
-                    I hereby authorize Huna (Company name) to charge my account in accordance with
+                    I hereby authorize lumio (Company name) to charge my account in accordance with
                     the terms in my contract lease agreement
                   </Typography>
                 </Box>

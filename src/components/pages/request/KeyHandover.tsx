@@ -152,7 +152,7 @@ export default function KeyHandover(): React.ReactElement {
                           Instructions:
                         </Typography>
                         <Typography variant="body2" color="grey.500">
-                          A HUNA team member will contact you and meet you at your property for
+                          A lumio team member will contact you and meet you at your property for
                           final inspection and handover at the time mentioned above.
                         </Typography>
                       </Box>

@@ -36,7 +36,7 @@ function Details(data: RequestDetail) {
               Instructions:{' '}
             </Typography>
             <Typography variant="subtitle1" color="grey.400">
-              A HUNA team member will contact you and meet you at your property for final inspection
+              A lumio team member will contact you and meet you at your property for final inspection
               and handover at the time mentioned above.
             </Typography>
           </Box>

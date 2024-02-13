@@ -27,7 +27,7 @@ export default function Page404() {
   return (
     <>
       <Helmet>
-        <title>{`404 Not Found | HUNA`}</title>
+        <title>{`404 Not Found | lumio`}</title>
       </Helmet>
       <RootStyle>
         <Container component={MotionContainer}>
