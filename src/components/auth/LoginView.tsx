@@ -87,8 +87,8 @@ export default function Menu() {
   });
 
   const defaultValues = {
-    email: '',
-    password: '',
+    email: 'demo@email.com',
+    password: '1234567890',
   };
 
   const methods = useForm<FormValuesProps>({
@@ -163,6 +163,9 @@ export default function Menu() {
                     }
                   />
                 </LoginForm>
+                <Typography sx={{ pb: 1.5 }}>
+                  These are dummy credentials , please use them{' '}
+                </Typography>
                 <LoginButton
                   loadingIndicator={
                     <CircularProgress
