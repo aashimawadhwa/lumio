@@ -31,13 +31,12 @@ import IosShareIcon from '@mui/icons-material/IosShare';
 import useResponsive from 'src/hooks/useResponsive';
 
 // data
-import { FilterTypesRoom } from 'src/utils/constant';
+import { FilterTypesRoom, PlaceData } from 'src/utils/constant';
 
 //components
 
 import Page from 'src/components/Page';
 import { Wrapper } from 'src/components/auth/styledComponents/styles';
-import { PlaceData } from 'src/utils/constant';
 
 const FacilityData = [
   {

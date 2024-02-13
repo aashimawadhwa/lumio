@@ -200,6 +200,7 @@ function UploadPicture({
 
   const classes = useStyles();
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const onSelectFile = (e: File) => {
     if (e) {
       const reader = new FileReader();
@@ -286,11 +287,11 @@ function UploadPicture({
       return new File([buf], filename);
     }
     setOpenCamera(false);
-  }, [webcamRef]);
+  }, [setCroppedImage, setImg, setOpenCamera]);
 
   const onDrop = useCallback((acceptedFiles) => {
     onSelectFile(acceptedFiles[0]);
-  }, []);
+  }, [onSelectFile]);
 
   const { getRootProps, getInputProps, open } = useDropzone({
     onDrop,

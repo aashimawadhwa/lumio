@@ -188,7 +188,7 @@ export default function ParkingPermits(): React.ReactElement {
   useEffect(() => {
     if (isWrapperOpen) setWrapperOpen(false);
     if (open) setOpen(false);
-  }, [isDesktop]);
+  }, [isDesktop, isWrapperOpen, open]);
 
   const handleToggle = (ind: any, title: any) => {
     if (!isDesktop) {
@@ -215,7 +215,7 @@ export default function ParkingPermits(): React.ReactElement {
   useEffect(() => {
     if (isRenewWrapperOpen) setRenewWrapperOpen(false);
     if (openRenew) setOpenRenew(false);
-  }, [isDesktop]);
+  }, [isDesktop, isRenewWrapperOpen, openRenew]);
 
   const handleToggleRenew = (ind: any, title: any) => {
     if (!isDesktop) {
@@ -242,7 +242,7 @@ export default function ParkingPermits(): React.ReactElement {
   useEffect(() => {
     if (isVehiclesWrapperOpen) setVehiclesWrapperOpen(false);
     if (openVehicles) setOpenVehicles(false);
-  }, [isDesktop]);
+  }, [isDesktop, isVehiclesWrapperOpen, openVehicles]);
 
   const handleTogglevehicles = (ind: any, title: any) => {
     if (!isDesktop) {

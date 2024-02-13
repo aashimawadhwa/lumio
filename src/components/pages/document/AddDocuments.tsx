@@ -143,7 +143,7 @@ export default function AddDocuments() {
   useEffect(() => {
     if (isWrapperOpen) setWrapperOpen(false);
     if (open) setOpen(false);
-  }, [isDesktop]);
+  }, [isDesktop, isWrapperOpen, open]);
 
   const capture = useCallback(() => {
     setLoading(true);

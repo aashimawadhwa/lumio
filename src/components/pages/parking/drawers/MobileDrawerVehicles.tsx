@@ -13,7 +13,7 @@ const CustomDrawer = styled(Drawer)(({ theme }) => ({
   },
   '& .MuiDrawer-paper': {
     backgroundColor: theme.palette.grey[800],
-    padding: theme.spacing(2,3,5,3),
+    padding: theme.spacing(2, 3, 5, 3),
     alignItems: 'center',
   },
 }));
@@ -22,7 +22,7 @@ const DrawerHeader = styled('div')(({ theme }) => ({
   display: 'flex',
   justifyContent: 'space-between',
   alignItems: 'center',
-  margin: theme.spacing(2,0),
+  margin: theme.spacing(2, 0),
 }));
 
 interface DrawerProps {
@@ -65,7 +65,7 @@ export default function MobileDrawer({
       <DrawerSVGIcon />
       <Box sx={{ width: '100%' }}>
         <DrawerHeader>
-          <Typography variant="h3" sx={{ textAlign: 'center'}}>
+          <Typography variant="h3" sx={{ textAlign: 'center' }}>
             Delete Vehicle
           </Typography>
           <IconButton onClick={() => close(false)} sx={{ backgroundColor: 'grey.900' }}>
